@@ -1,0 +1,648 @@
+{
+  "data": [
+    {
+      "day": "1/3",
+      "userA": 19625,
+      "userB": 2000,
+      "userC": 1700,
+      "userD": 2180
+    },
+    {
+      "day": "2",
+      "userA": 19250,
+      "userB": 2180,
+      "userC": 2480,
+      "userD": 2360
+    },
+    {
+      "day": "3",
+      "userA": 18875,
+      "userB": 2360,
+      "userC": 3260,
+      "userD": 2540
+    },
+    {
+      "day": "4",
+      "userA": 18500,
+      "userB": 2540,
+      "userC": 4040,
+      "userD": 2720
+    },
+    {
+      "day": "5",
+      "userA": 18125,
+      "userB": 2720,
+      "userC": 4820,
+      "userD": 2900
+    },
+    {
+      "day": "6",
+      "userA": 17750,
+      "userB": 2900,
+      "userC": 5600,
+      "userD": 3080
+    },
+    {
+      "day": "7",
+      "userA": 17375,
+      "userB": 3080,
+      "userC": 6380,
+      "userD": 3260
+    },
+    {
+      "day": "8",
+      "userA": 17000,
+      "userB": 3260,
+      "userC": 7160,
+      "userD": 3440
+    },
+    {
+      "day": "9",
+      "userA": 16625,
+      "userB": 3440,
+      "userC": 7940,
+      "userD": 3620
+    },
+    {
+      "day": "10",
+      "userA": 16250,
+      "userB": 3620,
+      "userC": 8720,
+      "userD": 3800
+    },
+    {
+      "day": "11",
+      "userA": 15875,
+      "userB": 3800,
+      "userC": 9500,
+      "userD": 3980
+    },
+    {
+      "day": "12",
+      "userA": 15500,
+      "userB": 3980,
+      "userC": 10280,
+      "userD": 4160
+    },
+    {
+      "day": "13",
+      "userA": 15125,
+      "userB": 4160,
+      "userC": 11060,
+      "userD": 4340
+    },
+    {
+      "day": "14",
+      "userA": 14750,
+      "userB": 4340,
+      "userC": 11840,
+      "userD": 4520
+    },
+    {
+      "day": "15",
+      "userA": 14375,
+      "userB": 4520,
+      "userC": 12620,
+      "userD": 4700
+    },
+    {
+      "day": "16",
+      "userA": 14000,
+      "userB": 4700,
+      "userC": 13400,
+      "userD": 4880
+    },
+    {
+      "day": "17",
+      "userA": 13625,
+      "userB": 4880,
+      "userC": 14180,
+      "userD": 5060
+    },
+    {
+      "day": "18",
+      "userA": 13250,
+      "userB": 5060,
+      "userC": 14960,
+      "userD": 5240
+    },
+    {
+      "day": "19",
+      "userA": 12875,
+      "userB": 5240,
+      "userC": 15740,
+      "userD": 5420
+    },
+    {
+      "day": "20",
+      "userA": 12625,
+      "userB": 5090,
+      "userC": 15520,
+      "userD": 4870
+    },
+    {
+      "day": "21",
+      "userA": 12375,
+      "userB": 4940,
+      "userC": 15300,
+      "userD": 4810
+    },
+    {
+      "day": "22",
+      "userA": 12125,
+      "userB": 4790,
+      "userC": 15080,
+      "userD": 4750
+    },
+    {
+      "day": "23",
+      "userA": 11875,
+      "userB": 4640,
+      "userC": 14860,
+      "userD": 4690
+    },
+    {
+      "day": "24",
+      "userA": 11625,
+      "userB": 4490,
+      "userC": 14640,
+      "userD": 4630
+    },
+    {
+      "day": "25",
+      "userA": 11375,
+      "userB": 4340,
+      "userC": 14420,
+      "userD": 4570
+    },
+    {
+      "day": "26",
+      "userA": 11125,
+      "userB": 4190,
+      "userC": 14200,
+      "userD": 4510
+    },
+    {
+      "day": "27",
+      "userA": 10875,
+      "userB": 4040,
+      "userC": 13980,
+      "userD": 4450
+    },
+    {
+      "day": "28",
+      "userA": 10625,
+      "userB": 3890,
+      "userC": 13760,
+      "userD": 4390
+    },
+    {
+      "day": "29",
+      "userA": 10375,
+      "userB": 3740,
+      "userC": 13540,
+      "userD": 4330
+    },
+    {
+      "day": "30",
+      "userA": 10125,
+      "userB": 3590,
+      "userC": 13320,
+      "userD": 4270
+    },
+    {
+      "day": "31",
+      "userA": 9875,
+      "userB": 3440,
+      "userC": 13100,
+      "userD": 4210
+    },
+    {
+      "day": "1 Apr",
+      "userA": 29625,
+      "userB": 290,
+      "userC": 8880,
+      "userD": 4150
+    },
+    {
+      "day": "2",
+      "userA": 29375,
+      "userB": 140,
+      "userC": 8660,
+      "userD": 4090
+    },
+    {
+      "day": "3",
+      "userA": 29125,
+      "userB": -10,
+      "userC": 8440,
+      "userD": 4030
+    },
+    {
+      "day": "4",
+      "userA": 28875,
+      "userB": -160,
+      "userC": 8220,
+      "userD": 3970
+    },
+    {
+      "day": "5",
+      "userA": 28625,
+      "userB": -310,
+      "userC": 8000,
+      "userD": 3910
+    },
+    {
+      "day": "6",
+      "userA": 28375,
+      "userB": -460,
+      "userC": 7780,
+      "userD": 3850
+    },
+    {
+      "day": "7",
+      "userA": 28125,
+      "userB": -610,
+      "userC": 7560,
+      "userD": 3790
+    },
+    {
+      "day": "8",
+      "userA": 27875,
+      "userB": -760,
+      "userC": 7340,
+      "userD": 3730
+    },
+    {
+      "day": "9",
+      "userA": 27625,
+      "userB": -910,
+      "userC": 7120,
+      "userD": 3670
+    },
+    {
+      "day": "10",
+      "userA": 27375,
+      "userB": -1060,
+      "userC": 6900,
+      "userD": 3610
+    },
+    {
+      "day": "11",
+      "userA": 27125,
+      "userB": -1210,
+      "userC": 6680,
+      "userD": 3550
+    },
+    {
+      "day": "12",
+      "userA": 26875,
+      "userB": -1360,
+      "userC": 6460,
+      "userD": 3490
+    },
+    {
+      "day": "13",
+      "userA": 26625,
+      "userB": -1510,
+      "userC": 6240,
+      "userD": 3430
+    },
+    {
+      "day": "14",
+      "userA": 26375,
+      "userB": -1660,
+      "userC": 6020,
+      "userD": 3370
+    },
+    {
+      "day": "15",
+      "userA": 26125,
+      "userB": -1810,
+      "userC": 5800,
+      "userD": 3310
+    },
+    {
+      "day": "16",
+      "userA": 25875,
+      "userB": -1960,
+      "userC": 5580,
+      "userD": 3250
+    },
+    {
+      "day": "17",
+      "userA": 25625,
+      "userB": -2110,
+      "userC": 5360,
+      "userD": 3190
+    },
+    {
+      "day": "18",
+      "userA": 25375,
+      "userB": -2260,
+      "userC": 5140,
+      "userD": 3130
+    },
+    {
+      "day": "19",
+      "userA": 25125,
+      "userB": -2410,
+      "userC": 4920,
+      "userD": 3070
+    },
+    {
+      "day": "20",
+      "userA": 24875,
+      "userB": -2560,
+      "userC": 4700,
+      "userD": 3010
+    },
+    {
+      "day": "21",
+      "userA": 24625,
+      "userB": -2710,
+      "userC": 4480,
+      "userD": 2950
+    },
+    {
+      "day": "22",
+      "userA": 24375,
+      "userB": -2860,
+      "userC": 4260,
+      "userD": 2890
+    },
+    {
+      "day": "23",
+      "userA": 24125,
+      "userB": -3010,
+      "userC": 4040,
+      "userD": 2830
+    },
+    {
+      "day": "24",
+      "userA": 23875,
+      "userB": -3160,
+      "userC": 3820,
+      "userD": 2770
+    },
+    {
+      "day": "25",
+      "userA": 23625,
+      "userB": -3310,
+      "userC": 3600,
+      "userD": 2710
+    },
+    {
+      "day": "26",
+      "userA": 23375,
+      "userB": -3460,
+      "userC": 3380,
+      "userD": 2650
+    },
+    {
+      "day": "27",
+      "userA": 23125,
+      "userB": -3610,
+      "userC": 3160,
+      "userD": 2590
+    },
+    {
+      "day": "28",
+      "userA": 22875,
+      "userB": -3760,
+      "userC": 2940,
+      "userD": 2530
+    },
+    {
+      "day": "29",
+      "userA": 22625,
+      "userB": -3910,
+      "userC": 2720,
+      "userD": 2470
+    },
+    {
+      "day": "30",
+      "userA": 22375,
+      "userB": -4060,
+      "userC": 2500,
+      "userD": 2410
+    },
+    {
+      "day": "1/5",
+      "userA": 42125,
+      "userB": -7210,
+      "userC": -1720,
+      "userD": 2350
+    },
+    {
+      "day": "2",
+      "userA": 41875,
+      "userB": -7360,
+      "userC": -1940,
+      "userD": 2290
+    },
+    {
+      "day": "3",
+      "userA": 41625,
+      "userB": -7510,
+      "userC": -2160,
+      "userD": 2230
+    },
+    {
+      "day": "4",
+      "userA": 41375,
+      "userB": -7660,
+      "userC": -2380,
+      "userD": 2170
+    },
+    {
+      "day": "5",
+      "userA": 41125,
+      "userB": -7810,
+      "userC": -2600,
+      "userD": 2110
+    },
+    {
+      "day": "6",
+      "userA": 40875,
+      "userB": -7960,
+      "userC": -2820,
+      "userD": 2050
+    },
+    {
+      "day": "7",
+      "userA": 40625,
+      "userB": -8110,
+      "userC": -3040,
+      "userD": 1990
+    },
+    {
+      "day": "8",
+      "userA": 40375,
+      "userB": -8260,
+      "userC": -3260,
+      "userD": 1930
+    },
+    {
+      "day": "9",
+      "userA": 40125,
+      "userB": -8410,
+      "userC": -3480,
+      "userD": 1870
+    },
+    {
+      "day": "10",
+      "userA": 39875,
+      "userB": -8560,
+      "userC": -3700,
+      "userD": 1810
+    },
+    {
+      "day": "11",
+      "userA": 39625,
+      "userB": -8710,
+      "userC": -3920,
+      "userD": 1750
+    },
+    {
+      "day": "12",
+      "userA": 39375,
+      "userB": -8860,
+      "userC": -4140,
+      "userD": 1690
+    },
+    {
+      "day": "13",
+      "userA": 39125,
+      "userB": -9010,
+      "userC": -4360,
+      "userD": 1630
+    },
+    {
+      "day": "14",
+      "userA": 38875,
+      "userB": -9160,
+      "userC": -4580,
+      "userD": 1570
+    },
+    {
+      "day": "15",
+      "userA": 38625,
+      "userB": -9310,
+      "userC": -4800,
+      "userD": 1510
+    },
+    {
+      "day": "16",
+      "userA": 38375,
+      "userB": -9460,
+      "userC": -5020,
+      "userD": 1450
+    },
+    {
+      "day": "17",
+      "userA": 38125,
+      "userB": -9610,
+      "userC": -5240,
+      "userD": 1390
+    },
+    {
+      "day": "18",
+      "userA": 37875,
+      "userB": -9760,
+      "userC": -5460,
+      "userD": 1330
+    },
+    {
+      "day": "19",
+      "userA": 37625,
+      "userB": -9910,
+      "userC": -5680,
+      "userD": 1270
+    },
+    {
+      "day": "20",
+      "userA": 37375,
+      "userB": -10060,
+      "userC": -5900,
+      "userD": 1210
+    },
+    {
+      "day": "21",
+      "userA": 37125,
+      "userB": -10210,
+      "userC": -6120,
+      "userD": 1150
+    },
+    {
+      "day": "22",
+      "userA": 36875,
+      "userB": -10360,
+      "userC": -6340,
+      "userD": 1090
+    },
+    {
+      "day": "23",
+      "userA": 36625,
+      "userB": -10510,
+      "userC": -6560,
+      "userD": 1030
+    },
+    {
+      "day": "24",
+      "userA": 36375,
+      "userB": -10660,
+      "userC": -6780,
+      "userD": 970
+    },
+    {
+      "day": "25",
+      "userA": 36125,
+      "userB": -10810,
+      "userC": -7000,
+      "userD": 910
+    },
+    {
+      "day": "26",
+      "userA": 35875,
+      "userB": -10960,
+      "userC": -7220,
+      "userD": 850
+    },
+    {
+      "day": "27",
+      "userA": 35625,
+      "userB": -11110,
+      "userC": -7440,
+      "userD": 790
+    },
+    {
+      "day": "28",
+      "userA": 35375,
+      "userB": -11260,
+      "userC": -7660,
+      "userD": 730
+    },
+    {
+      "day": "29",
+      "userA": 35125,
+      "userB": -11410,
+      "userC": -7880,
+      "userD": 670
+    },
+    {
+      "day": "30",
+      "userA": 34875,
+      "userB": -11560,
+      "userC": -8100,
+      "userD": 610
+    },
+    {
+      "day": "31",
+      "userA": 34625,
+      "userB": -11710,
+      "userC": -8320,
+      "userD": 550
+    }
+  ]
+}
