@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter as Router, Route, Switch, Link } from "react-router-dom";
+// import { HashRouter as Router, Route, Switch, Link } from "react-router-dom";
 import FullPage from "./FullPage";
-import PageContain from "./PageContain";
+// import PageContain from "./PageContain";
 
 import './index.css';
 // import App from './App';

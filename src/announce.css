@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+.announce {
+  width: 60em;
+  box-shadow: 0 0.2em 1em 0.2em #cfff3c;
+  border: 1px #cfff3c;
+  border-width: 2px 0;
+}
+.announce .paper {
+  padding: 5em 3em;
+  background: white;
+}
+.announce h1 {
+  font-size: 400%;
+  margin: 0;
+}
+.announce h2 {
+  color: black;
+  font-size: 220%;
+  margin-top: 10px;
+}
+.announce h1,
+.announce .event {
+  text-align: center;
+  line-height: 1;
+}
+.announce dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em 0 0;
+  font-size: 190%;
+}
+
+.announce text {
+  font: 16px/1.5 VT323, monospace;
+}
+.announce dt,
+.announce dd {
+  margin-bottom: 5px;
+  width: 50%;
+
+}
+.announce dd {
+  text-align: right;
+}
+.announce .total {
+  margin: 0;
+}
+.announce .total:before {
+  content: '-------------------';
+  display: block;
+  width: 100%;
+  text-align: right;
+}
+.announce .total dt {
+  text-align: right;
+}
+.announce .total dd {
+  padding-left: .5em;
+  text-align: left;
+}

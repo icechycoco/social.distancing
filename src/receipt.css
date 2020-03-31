@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+.receipt {
+  width: 30em;
+  box-shadow: 0 0.2em 1em 0.2em rgba(121, 119, 119, 0.2);
+  border: 1px dotted rgb(184, 182, 182);
+  border-width: 1px 0;
+}
+.receipt .paper {
+  padding: 3em 1.5em;
+  background: white;
+}
+.receipt h1 {
+  font-size: 150%;
+  margin: 0;
+}
+.receipt h1,
+.receipt .event {
+  text-align: center;
+  line-height: 1;
+}
+.receipt dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1.5em 0 0;
+}
+
+.receipt text {
+  font: 16px/1.5 VT323, monospace;
+}
+.receipt dt,
+.receipt dd {
+  margin: 0;
+  width: 50%;
+}
+.receipt dd {
+  text-align: right;
+}
+.receipt .total {
+  margin: 0;
+}
+.receipt .total:before {
+  content: '-------------------';
+  display: block;
+  width: 100%;
+  text-align: right;
+}
+.receipt .total dt {
+  text-align: right;
+}
+.receipt .total dd {
+  padding-left: .5em;
+  text-align: left;
+}
