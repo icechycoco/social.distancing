@@ -1,14 +1,24 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import { useForm } from "react-hook-form";
-import { RHFInput } from 'react-hook-form-input';
-import Announce from '../components/announce';
+import { RHFInput } from "react-hook-form-input";
+import Announce from "../components/announce";
 // import Todo from '../components/Todo';
-import '../announce.css';
-import { Box, Form, FormGroup, FormLabel, FormControl, FormText, Container, Row, Col, Button } from "react-bootstrap"
+import "../announce.css";
+import {
+  Box,
+  Form,
+  FormGroup,
+  FormLabel,
+  FormControl,
+  FormText,
+  Container,
+  Row,
+  Col,
+  Button
+} from "react-bootstrap";
 
 export default () => {
-
   // state = {
   //   todos: [
   //     { task: "Wash Dishes" },
@@ -27,14 +37,14 @@ export default () => {
 
   return (
     <div className="component sixth-component">
-      <Container className="center-block" style={{ alignSelf: 'center', }}>
+      <Container className="center-block" style={{ alignSelf: "center" }}>
         <h2>จากปรากดการณ์</h2>
         {/* <div>
           <TodoList todos={this.todos} handleDelete={handleDelete} />
           <Box isShowing={this.boxShowing} />
         </div> */}
         {/* <Announce /> */}
-      </Container >
-    </div >
+      </Container>
+    </div>
   );
 };

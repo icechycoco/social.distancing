@@ -1,13 +1,12 @@
-import React from 'react'
-import { Container } from "react-bootstrap"
+import React from "react";
+import { Container } from "react-bootstrap";
 
 export default () => {
-
   return (
-    <div className='announce'>
-      <div className='paper'>
-        <h1 style={{ color: 'black' }}>ใบสั่ง</h1>
-        <h2 className='event'>ประกาศปิดสถานประกอบการชั่วคราวดังต่อไปนี้</h2>
+    <div className="announce">
+      <div className="paper">
+        <h1 style={{ color: "black" }}>ใบสั่ง</h1>
+        <h2 className="event">ประกาศปิดสถานประกอบการชั่วคราวดังต่อไปนี้</h2>
         <dl>
           <dt>ใบสั่งที่:</dt>
           <dd>0000001</dd>
@@ -42,7 +41,7 @@ export default () => {
           <dt>ลานมวย</dt>
           <dd></dd>
         </dl>
-        <dl className='total'>
+        <dl className="total">
           {/* <dt>รวม:</dt>
           <dd>22 วัน</dd>
           <dt>Tax:</dt>

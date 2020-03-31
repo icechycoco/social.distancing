@@ -1,17 +1,16 @@
-import React from 'react'
-import { Container, Row } from "react-bootstrap"
-import '../receipt.css';
+import React from "react";
+import { Container, Row } from "react-bootstrap";
+import "../receipt.css";
 import Receipt from "../components/receipt";
 
 export default () => {
-
   return (
     <div className="component tenth-component">
-      <Container className="center-block" style={{ alignSelf: 'center', }}>
+      <Container className="center-block" style={{ alignSelf: "center" }}>
         <Row>
           <h2>ชีวิตดีดีที่ลงตัว</h2>
         </Row>
-        <Row style={{ alignSelf: 'center', }}>
+        <Row style={{ alignSelf: "center" }}>
           <Receipt />
         </Row>
         <Row>

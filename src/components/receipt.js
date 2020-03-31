@@ -1,13 +1,12 @@
-import React from 'react'
-import { Container } from "react-bootstrap"
+import React from "react";
+import { Container } from "react-bootstrap";
 
 export default () => {
-
   return (
-    <div className='receipt'>
-      <div className='paper'>
+    <div className="receipt">
+      <div className="paper">
         <h1>ประเทศไทย</h1>
-        <div className='event'>ใบเสร็จ, 31 มีนาคม 2020</div>
+        <div className="event">ใบเสร็จ, 31 มีนาคม 2020</div>
         <dl>
           <dt>Order #:</dt>
           <dd>7yVSwQAE</dd>
@@ -38,7 +37,7 @@ export default () => {
           <dt>{}</dt>
           <dd>{}</dd>
         </dl>
-        <dl className='total'>
+        <dl className="total">
           <dt>Total:</dt>
           <dd>12000 บาท</dd>
           <dt>Vat7%:</dt>
