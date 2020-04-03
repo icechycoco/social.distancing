@@ -17,6 +17,7 @@ import NinthComponent from "../src/Pages/NinthComponent";
 import TenthComponent from "../src/Pages/TenthComponent";
 import EleventhComponent from "../src/Pages/EleventhComponent";
 import TwelvethComponent from "../src/Pages/TwelvethComponent";
+import AppProvider from './AppProvider';
 
 // import "./index.css";
 
@@ -49,30 +50,32 @@ export default class FullPage extends React.Component {
 
     return (
       <React.Fragment>
-        <ReactPageScroller
-          pageOnChange={this.handlePageChange}
-          customPageNumber={this.state.currentPage}
-        // animationTimer={900}
-        >
-          {/* <p className="test-style text-center">test test test</p> */}
-          <FirstComponent />
-          <SecondComponent />
-          <ThirdComponent />
-          <FourthComponent />
-          <SixthComponent />
-          <FifthComponent />
-          <SeventhComponent />
-          <EighthOneComponent />
-          <EighthTwoComponent />
-          {/* <EighthThreeComponent /> */}
-          <NinthComponent />
-          <TenthComponent />
-          <EleventhComponent />
-          <TwelvethComponent />
-        </ReactPageScroller>
-        {/* <Pagination className="pagination-additional-class" bsSize="large">
-          {pagesNumbers}
-        </Pagination> */}
+        <AppProvider>
+          <ReactPageScroller
+            pageOnChange={this.handlePageChange}
+            customPageNumber={this.state.currentPage}
+          // animationTimer={900}
+          >
+            {/* <p className="test-style text-center">test test test</p> */}
+            <FirstComponent />
+            <SecondComponent />
+            <ThirdComponent />
+            <FourthComponent />
+            <SixthComponent />
+            <FifthComponent />
+            <SeventhComponent />
+            <EighthOneComponent />
+            <EighthTwoComponent />
+            {/* <EighthThreeComponent /> */}
+            <NinthComponent />
+            <TenthComponent />
+            <EleventhComponent />
+            <TwelvethComponent />
+          </ReactPageScroller>
+          {/* <Pagination className="pagination-additional-class" bsSize="large">
+            {pagesNumbers}
+          </Pagination> */}
+        </AppProvider>
       </React.Fragment>
     );
   }
