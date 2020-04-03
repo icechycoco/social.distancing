@@ -17,6 +17,9 @@ import NinthComponent from "../src/Pages/NinthComponent";
 import TenthComponent from "../src/Pages/TenthComponent";
 import EleventhComponent from "../src/Pages/EleventhComponent";
 import TwelvethComponent from "../src/Pages/TwelvethComponent";
+import ThirdTeenComponent from "../src/Pages/ThirdTeenComponent";
+import FourtheenComponent from "../src/Pages/FourtheenComponent";
+
 import AppProvider from './AppProvider';
 
 // import "./index.css";
@@ -59,7 +62,7 @@ export default class FullPage extends React.Component {
             {/* <p className="test-style text-center">test test test</p> */}
             <FirstComponent />
             <SecondComponent />
-            <ThirdComponent />
+            {/* <ThirdComponent /> */}
             <FourthComponent />
             <SixthComponent />
             <FifthComponent />
@@ -71,6 +74,8 @@ export default class FullPage extends React.Component {
             <TenthComponent />
             <EleventhComponent />
             <TwelvethComponent />
+            <ThirdTeenComponent />
+            <FourtheenComponent />
           </ReactPageScroller>
           {/* <Pagination className="pagination-additional-class" bsSize="large">
             {pagesNumbers}

@@ -3,10 +3,10 @@ import { Container } from "react-bootstrap";
 import AppContext from '../AppContext';
 
 const cal = input => {
-  const food = parseInt(input.food || "0", 10)
-  const transport = parseInt(input.transport || "0", 10)
+  const food = parseInt(input.food * 30 || "0", 10)
+  const transport = parseInt(input.transport * 30 || "0", 10)
   const home = parseInt(input.home || "0", 10)
-  return food + transport + home
+  return food + transport + home + 300 + 220 + 900
 }
 
 export default () => {
@@ -18,7 +18,7 @@ export default () => {
             <h1 style={{
               color: 'black', fontSize: "40px",
             }}>ใบเสร็จ</h1>
-            < div className="event" > 31 มีนาคม 2020</div>
+            < div className="event" > 31 มีนาคม 2563</div>
             <dl className="list">
               <dt>Order #:</dt>
               <dd>7yVSwQAE</dd>
@@ -30,14 +30,12 @@ export default () => {
               <dd>MasterCard</dd> */}
               <dt> </dt>
               <dd> </dd>
-              <dt>อาหาร x 31</dt>
-              <dd>{context.input.food} บาท</dd>
-              <dt>เดินทาง x 20</dt>
-              <dd>{context.input.transport} บาท</dd>
-              <dt>ที่อยู่ x 31</dt>
-              <dd>{context.input.home} บาท</dd>
-              <dt>เบ็ดเตล็ด x 31</dt>
-              <dd>349 บาท</dd>
+              <dt>ค่าอาหาร</dt>
+              <dd>{context.input.food * 30} บาท</dd>
+              <dt>ค่าเดินทาง</dt>
+              <dd>{context.input.transport * 30} บาท</dd>
+              <dt>ค่าที่พัก</dt>
+              <dd>{context.input.home * 1} บาท</dd>
               <dt>หน้ากากอนามัย</dt>
               <dd>300 บาท</dd>
               <dt>เจลล้างมือ</dt>
@@ -48,10 +46,10 @@ export default () => {
               <dd>{}</dd>
             </dl>
             <dl className="total">
+              {/* <dt>Vat7%:</dt>
+              <dd>120 บาท</dd> */}
               <dt>Total:</dt>
               <dd>{cal(context.input)} บาท</dd>
-              <dt>Vat7%:</dt>
-              <dd>120 บาท</dd>
             </dl>
             <dl>
               {/* <dt>Requesting Receipt:</dt>

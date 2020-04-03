@@ -26,9 +26,15 @@ const Item = (props) => (
 export default class SixthComponent extends React.Component {
   state = {
     todos: [
-      { task: "Wash Dishes" },
-      { task: "Walk Dog" },
-      { task: "Brush Teeth" }
+      { task: "ห้างสรรพสินค้า" },
+      { task: "ฟิตเนต" },
+      { task: "โรงเรียน" },
+      { task: "ตลาดนัด" },
+      { task: "สนามกอล์ฟ" },
+      { task: "ศูนย์แสดงสินค้า" },
+      { task: "อาบ อบ นวด" },
+      { task: "ร้านเสริมสวย" },
+      { task: "สระว่ายน้ำ" }
     ],
     inputText: "",
     boxShowing: false
@@ -43,18 +49,19 @@ export default class SixthComponent extends React.Component {
   render() {
     return (
       <div className="component sixth-component">
+        <h2>เมื่อประกาศขอความร่วมมือ social distancing ปิดสถานประกอบการณ์ต่างๆ</h2>
+
         <Container className="center-block" style={{ alignSelf: "center" }}>
-          <h2>จากปรากดการณ์</h2>
-          <div>
+          <h3 className="center-block">
             <ReactCSSTransitionGroup
               transitionName="fade"
               transitionEnterTimeout={500}
               transitionLeaveTimeout={300}>
-              { this.state.todos.map((data, index) => (
+              {this.state.todos.map((data, index) => (
                 <Item key={index} data={data} click={() => this.handleDelete(index)} />
-              )) }
+              ))}
             </ReactCSSTransitionGroup>
-          </div>
+          </h3>
           {/* <div>
             <TodoList todos={this.todos} handleDelete={handleDelete} />
             <Box isShowing={this.boxShowing} />

@@ -8,7 +8,7 @@ export default () => {
     <div className="component tenth-component">
       <Container className="center-block" style={{ alignSelf: "center" }}>
         <Row>
-          <h2>ชีวิตดีดีที่ลงตัว</h2>
+          <h2>นี่เป็นค่าใช้จ่ายของคุณใน 1 เดือน</h2>
         </Row>
         <Row >
           <Receipt style={{ margin: "auto" }} />

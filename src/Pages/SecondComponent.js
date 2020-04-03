@@ -27,10 +27,40 @@ const calc = state => {
   let sum = 0;
   const { i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, iFixed } = state;
   if (i1) {
-    sum += 900
+    sum += 250
   }
   if (i2) {
-    sum += 10
+    sum += 150
+  }
+  if (i3) {
+    sum += 500
+  }
+  if (i4) {
+    sum += 50
+  }
+  if (i5) {
+    sum += 300
+  }
+  if (i6) {
+    sum += 200
+  }
+  if (i7) {
+    sum += 400
+  }
+  if (i8) {
+    sum += 2500
+  }
+  if (i9) {
+    sum += 900
+  }
+  if (i10) {
+    sum += 500
+  }
+  if (i11) {
+    sum += 500
+  }
+  if (iFixed) {
+    sum += 30000
   }
   return sum
 }
@@ -49,7 +79,7 @@ export default () => {
     i9: false,
     i10: false,
     i11: false,
-    iFixed: false
+    iFixed: true
   });
 
   const handleChange = event => {
@@ -76,25 +106,28 @@ export default () => {
                 control={
                   <Checkbox checked={i1} onChange={handleChange} name="i1" />
                 }
-                label={<p className="text-info">{`${i1 ? 'B' : 'หน้ากากอนามัย 900'}`}</p>}
+                label={<div><p className={`${i1 ? 'text-info-click' : 'text-info'}`}> {`${i1 ? 'หน้ากากอนามัย' : 'หน้ากากอนามัย'}`}</p>
+                  <p className={`${i1 ? 'text-input-click' : ''}`}> {`${i1 ? 'สินค้าหายไปจากตลาด จนตอนนี้ก็ยังไม่รู้ว่าไปไหน' : ''}`}</p></div>}
               />
               <FormControlLabel
                 control={
                   <Checkbox checked={i2} onChange={handleChange} name="i2" />
                 }
-                label={<p className="text-info">เจลล้างมือ 10</p>}
+                label={<p className="text-info">เจลล้างมือ</p>}
               />
               <FormControlLabel
                 control={
                   <Checkbox checked={i3} onChange={handleChange} name="i3" />
                 }
-                label={<p className="text-info">แอลกอฮอล์แบบขวด</p>}
+                label={<div><p className={`${i3 ? 'text-info-click' : 'text-info'}`}> {`${i3 ? 'แอลกอฮอล์แบบขวด' : 'แอลกอฮอล์แบบขวด'}`}</p>
+                  <p className={`${i3 ? 'text-input-click' : ''}`}> {`${i3 ? 'สินค้าหมด' : ''}`}</p></div>}
               />
               <FormControlLabel
                 control={
                   <Checkbox checked={i4} onChange={handleChange} name="i4" />
                 }
-                label={<p className="text-info">ไข่ไก่</p>}
+                label={<div><p className={`${i4 ? 'text-info-click' : 'text-info'}`}> {`${i4 ? 'ไข่ไก่' : 'ไข่ไก่'}`}</p>
+                  <p className={`${i4 ? 'text-input-click' : ''}`}> {`${i4 ? 'แม่บ้านทำเป็นแต่ไข่เจียว ขึ้นราคา 2 เท่าซะเลย' : ''}`}</p></div>}
               />
               <FormControlLabel
                 control={
@@ -145,21 +178,18 @@ export default () => {
                     onChange={handleChange}
                     name="iFixed"
                     disabled
+                    color='##cfff3c'
                   />
                 }
-                label={<p className="text-info">ค่าครองชีพในกรุงเทพ</p>}
+                label={<p className="text-info" style={{ color: '#cfff3c' }}>ค่าครองชีพในกรุงเทพ</p>}
               />
             </FormControl>
           </Col>
-          <span>
-            <p className="text-info" style={{ marginLeft: "50px" }}>
-              รวมทั้งสิ้น
-            </p>
-            <p className="text-info" style={{ marginLeft: "50px" }}>
-              {calc(state)}
-              บาท
-            </p>
-          </span>
+          <p className="text-info" style={{ marginLeft: "50px" }}>รวมทั้งสิ้น <span className="text-info" style={{ marginLeft: "50px", color: 'white' }}>
+            {calc(state)}
+            {'   '}บาท
+            </span></p>
+
         </Row>
       </Container>
     </div>

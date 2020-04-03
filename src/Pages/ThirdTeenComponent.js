@@ -28,13 +28,13 @@ for (let i = 0; i < Object.keys(data.data).length; i++) {
   D.push(data.data[i].userD);
 }
 
-class EleventhComponent extends React.Component {
+class ThirdTeenComponent extends React.Component {
   state = {
     series: [
-      {
-        name: "userA",
-        data: A
-      },
+      // {
+      //   name: "userA",
+      //   data: A
+      // },
       // {
       //   name: "userB",
       //   data: B
@@ -43,10 +43,10 @@ class EleventhComponent extends React.Component {
         name: "userC",
         data: C
       },
-      // {
-      //   name: "userD",
-      //   data: D
-      // }
+      {
+        name: "userD",
+        data: D
+      }
     ],
     options: {
       chart: {
@@ -54,27 +54,27 @@ class EleventhComponent extends React.Component {
         type: "line",
         id: "areachart-2"
       },
-      colors: ["#cfff3c", "#ff4379"],
+      colors: ["#ff4379", "#f0f0f0"],
       annotations: {
-        yaxis: [
-          {
-            y: 34625,
-            y2: -7880,
-            borderColor: "#000",
-            fillColor: "white",
-            opacity: 0.2,
-            label: {
-              borderColor: "#333",
-              style: {
-                fontSize: "30px",
-                color: "black",
-                background: "#cfff3c",
-                fontFamily: "Pridi"
-              },
-              text: "ช่องว่างระหว่างรายได้"
-            }
-          }
-        ],
+        // yaxis: [
+        //   {
+        //     y: 34625,
+        //     y2: 1220,
+        //     borderColor: "#000",
+        //     fillColor: "white",
+        //     opacity: 0.2,
+        //     label: {
+        //       borderColor: "#333",
+        //       style: {
+        //         fontSize: "30px",
+        //         color: "black",
+        //         background: "#cfff3c",
+        //         fontFamily: "Pridi"
+        //       },
+        //       text: "ช่องว่างระหว่างรายได้"
+        //     }
+        //   }
+        // ],
         xaxis: [
           {
             x: "20 มี.ค.",
@@ -161,7 +161,7 @@ class EleventhComponent extends React.Component {
     return (
       <div className="component third-component">
         <div style={{ alignSelf: "center" }}>
-          <h2>ลองดูกราฟเปรียบเทียบดูสิ</h2>
+          <h2>ชีวิตหลังได้รับ 5000 บาท</h2>
           <br />
           <div style={{ width: "1500px" }}>
             <ReactApexChart
@@ -177,4 +177,4 @@ class EleventhComponent extends React.Component {
   }
 }
 
-export default EleventhComponent;
+export default ThirdTeenComponent;
