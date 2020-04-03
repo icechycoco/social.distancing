@@ -2,6 +2,13 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import AppContext from '../AppContext';
 
+const cal = input => {
+  const food = parseInt(input.food || "0", 10)
+  const transport = parseInt(input.transport || "0", 10)
+  const home = parseInt(input.home || "0", 10)
+  return food + transport + home
+}
+
 export default () => {
   return (
     <AppContext.Consumer>
@@ -42,7 +49,7 @@ export default () => {
             </dl>
             <dl className="total">
               <dt>Total:</dt>
-              <dd>12000 บาท</dd>
+              <dd>{cal(context.input)} บาท</dd>
               <dt>Vat7%:</dt>
               <dd>120 บาท</dd>
             </dl>
