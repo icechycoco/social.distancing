@@ -64,7 +64,7 @@ export default () => {
                 control={
                   <Checkbox checked={i1} onChange={handleChange} name="i1" />
                 }
-                label={<p className="text-info">หน้ากากอนามัย</p>}
+                label={<p className="text-info">{`${i1 ? 'B' : 'หน้ากากอนามัย'}`}</p>}
               />
               <FormControlLabel
                 control={
