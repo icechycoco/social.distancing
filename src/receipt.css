@@ -3,17 +3,19 @@
 }
 
 .receipt {
-  width: 30em;
-  box-shadow: 0 0.2em 1em 0.2em rgba(121, 119, 119, 0.2);
+  width: 35em;
+  box-shadow: 0 0.2em 1em 0.2em rgba(90, 151, 54, 0.979);
   border: 1px dotted rgb(184, 182, 182);
   border-width: 1px 0;
+  margin: auto;
+  margin-top: 50px;
 }
 .receipt .paper {
   padding: 3em 1.5em;
   background: white;
 }
 .receipt h1 {
-  font-size: 150%;
+  font-size: 180%;
   margin: 0;
 }
 .receipt h1,
@@ -28,12 +30,14 @@
 }
 
 .receipt text {
-  font: 16px/1.5 VT323, monospace;
+  font: 30px VT323, monospace;
 }
 .receipt dt,
 .receipt dd {
   margin: 0;
   width: 50%;
+  margin-top: 5px;
+  font-size: 25px;
 }
 .receipt dd {
   text-align: right;
@@ -53,4 +57,15 @@
 .receipt .total dd {
   padding-left: .5em;
   text-align: left;
+}
+
+.receipt .list {
+  margin: 0;
+}
+.receipt .list:before {
+  margin-top: 10px;
+  content: '-------------------';
+  display: block;
+  width: 100%;
+  text-align: right;
 }

@@ -49,7 +49,7 @@ export default () => {
                   pose="enter"
                   charPoses={charPoses3}
                 >
-                  ต้นทุนของ
+                  ราคาของ
                 </SplitText>
               </h1>
             </Row>

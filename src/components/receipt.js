@@ -5,21 +5,21 @@ export default () => {
   return (
     <div className="receipt">
       <div className="paper">
-        <h1>ประเทศไทย</h1>
-        <div className="event">ใบเสร็จ, 31 มีนาคม 2020</div>
-        <dl>
+        <h1 style={{
+          color: 'black', fontSize: "40px",
+        }}>ใบเสร็จ</h1>
+        < div className="event" > 31 มีนาคม 2020</div>
+        <dl className="list">
           <dt>Order #:</dt>
           <dd>7yVSwQAE</dd>
-          <dt>Ticket:</dt>
-          <dd>113682, 11368001</dd>
           <dt>Date of Purchase:</dt>
           <dd>31/03/2020</dd>
           {/* <dt>Credit Card:</dt>
           <dd>*************1234</dd>
           <dt>Credit Card Type:</dt>
           <dd>MasterCard</dd> */}
-          <dt>{}</dt>
-          <dd>{}</dd>
+          <dt> </dt>
+          <dd> </dd>
           <dt>อาหาร x 31</dt>
           <dd>3000 บาท</dd>
           <dt>เดินทาง x 20</dt>
@@ -44,8 +44,8 @@ export default () => {
           <dd>120 บาท</dd>
         </dl>
         <dl>
-          <dt>Requesting Receipt:</dt>
-          <dd>John Doe, john.doe@gmail.com</dd>
+          {/* <dt>Requesting Receipt:</dt>
+          <dd>John Doe, john.doe@gmail.com</dd> */}
         </dl>
       </div>
     </div>
