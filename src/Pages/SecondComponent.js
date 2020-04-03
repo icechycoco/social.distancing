@@ -23,6 +23,18 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
+const calc = state => {
+  let sum = 0;
+  const { i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, iFixed } = state;
+  if (i1) {
+    sum += 900
+  }
+  if (i2) {
+    sum += 10
+  }
+  return sum
+}
+
 export default () => {
   const classes = useStyles();
   const [state, setState] = React.useState({
@@ -64,13 +76,13 @@ export default () => {
                 control={
                   <Checkbox checked={i1} onChange={handleChange} name="i1" />
                 }
-                label={<p className="text-info">{`${i1 ? 'B' : 'หน้ากากอนามัย'}`}</p>}
+                label={<p className="text-info">{`${i1 ? 'B' : 'หน้ากากอนามัย 900'}`}</p>}
               />
               <FormControlLabel
                 control={
                   <Checkbox checked={i2} onChange={handleChange} name="i2" />
                 }
-                label={<p className="text-info">เจลล้างมือ</p>}
+                label={<p className="text-info">เจลล้างมือ 10</p>}
               />
               <FormControlLabel
                 control={
@@ -144,6 +156,7 @@ export default () => {
               รวมทั้งสิ้น
             </p>
             <p className="text-info" style={{ marginLeft: "50px" }}>
+              {calc(state)}
               บาท
             </p>
           </span>
