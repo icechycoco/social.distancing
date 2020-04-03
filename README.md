@@ -1,5 +1,5 @@
 ##1 หน้าแรก social distancing
--- จัดให้คำว่าต้นทุนของ ตรงกับposition ของคำว่า social หลังจากแยกออกจากกัน
+-- จัดให้คำว่าต้นทุนของ ตรงกับ position ของคำว่า social หลังจากแยกออกจากกัน
 
 ##2 หน้าสอง ลิสรายการ
 -- ทำให้ปุ่ม checkbox ใหญ่ขึ้น
@@ -19,6 +19,3 @@ https://blog.prototypr.io/using-reactcsstransitiongroup-for-enter-exit-animation
 #12 กราฟ
 -- เรียกข้อมูลจากหน้า11
 -- อยากได้กราฟอยู่ตรงกลาง
-
-
-

@@ -25,9 +25,13 @@ export default class PageContain extends React.Component {
 
     for (let i = 1; i <= 5; i++) {
       pageNumbers.push(
-        <Pagination.Item key={i} eventKey={i - 1} onSelect={this.handlePageChange}>
+        <Pagination.Item
+          key={i}
+          eventKey={i - 1}
+          onSelect={this.handlePageChange}
+        >
           {i}
-        </Pagination.Item>,
+        </Pagination.Item>
       );
     }
 

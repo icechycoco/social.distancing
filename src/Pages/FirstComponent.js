@@ -7,7 +7,7 @@ export default () => {
   const charPoses = {
     exit: { x: 0, opacity: 500000 },
     enter: {
-      x: -360,
+      x: -60,
       opacity: 100,
       transition: ({ wordIndex }) => ({
         type: "tween",
@@ -26,12 +26,33 @@ export default () => {
       })
     }
   };
+  const charPoses3 = {
+    exit: { x: 0, opacity: 500000 },
+    enter: {
+      x: -360,
+      opacity: 100,
+      transition: ({ wordIndex }) => ({
+        type: "tween",
+        delay: 1500
+      })
+    }
+  };
   return (
     <div className="component first-component">
       <Container className="center-block" style={{ alignSelf: "center" }}>
         <Row fuild>
           <Col style={{ marginBottom: "30px", alignSelf: "left" }}>
-            <h1 style={{ textAlign: "left" }}>ต้นทุนของ</h1>
+            <Row>
+              <h1>
+                <SplitText
+                  initialPose="exit"
+                  pose="enter"
+                  charPoses={charPoses3}
+                >
+                  ต้นทุนของ
+                </SplitText>
+              </h1>
+            </Row>
           </Col>
         </Row>
         <Row>

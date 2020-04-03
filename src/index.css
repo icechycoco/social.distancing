@@ -11,10 +11,11 @@ body {
 
 code {
   font-family: 'Pridi',
-  monospace;
+    monospace;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   height: 100%;
   width: 100%;
@@ -61,19 +62,19 @@ html, body {
 }
 
 .component.third-component {
-  background-color:  black;
+  background-color: black;
   text-align: center;
-  justify-content: center ;
-  align-content: center ;
+  justify-content: center;
+  align-content: center;
 
 }
 
 .component.fourth-component {
-  background-color:  black;
+  background-color: black;
 }
 
 .component.fifth-component {
-  background-color: black ;
+  background-color: black;
   position: relative;
   align-content: center;
   /* background-image: url(./images/taxi2.jpg); */
@@ -85,39 +86,39 @@ html, body {
 }
 
 .component.sixth-component {
-  background-color: black ;
+  background-color: black;
 }
 
 .component.seventh-component {
-  background-color: black ;
+  background-color: black;
 }
 
 .component.eighth-1-component {
-  background-color: black ;
+  background-color: black;
   background-image: url(./images/taxi3.jpg);
   background-size: cover;
 }
 
 .component.eighth-2-component {
-  background-color: black ;
-  background-image: url(./images/mate3.jpg);
+  background-color: black;
+  background-image: url(./images/maid_3.jpg);
   background-size: cover;
 }
 
 .component.ninth-component {
-  background-color: black ;
+  background-color: black;
 }
 
 .component.tenth-component {
-  background-color: black ;
+  background-color: black;
 }
 
 .component.eleventh-component {
-  background-color: black ;
+  background-color: black;
 }
 
 .component.twelveth-component {
-  background-color: black ;
+  background-color: black;
 }
 
 h1 {
@@ -144,7 +145,7 @@ h3 {
 
 p.text-input {
   font-size: 30pt;
-  color:#ff4379;
+  color: #ff4379;
   font-family: 'Pridi';
 }
 
@@ -163,7 +164,8 @@ p.text-info {
   width: 100%;
 }
 
-.pagination-additional-class > li:not(:last-of-type) > a, .pagination-additional-class > li:not(:last-of-type) > span {
+.pagination-additional-class>li:not(:last-of-type)>a,
+.pagination-additional-class>li:not(:last-of-type)>span {
   margin-right: 50px;
 }
 
@@ -180,8 +182,10 @@ p.text-info {
 }
 
 @media (max-width: 768px) {
-  .pagination-additional-class > li:not(:last-of-type) > a, .pagination-additional-class > li:not(:last-of-type) > span {
-      margin-right: 5px;
+
+  .pagination-additional-class>li:not(:last-of-type)>a,
+  .pagination-additional-class>li:not(:last-of-type)>span {
+    margin-right: 5px;
   }
 }
 
@@ -194,6 +198,7 @@ p.text-info {
   src: local('Pridi Regular'), local('Pridi-Regular'), url(https://fonts.gstatic.com/s/pridi/v5/2sDQZG5JnZLfkcWJqWgJbU28O7w.woff2) format('woff2');
   unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
 }
+
 /* vietnamese */
 @font-face {
   font-family: 'Pridi';
@@ -202,6 +207,7 @@ p.text-info {
   src: local('Pridi Regular'), local('Pridi-Regular'), url(https://fonts.gstatic.com/s/pridi/v5/2sDQZG5JnZLfkcWSqWgJbU28O7w.woff2) format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
+
 /* latin-ext */
 @font-face {
   font-family: 'Pridi';
@@ -210,6 +216,7 @@ p.text-info {
   src: local('Pridi Regular'), local('Pridi-Regular'), url(https://fonts.gstatic.com/s/pridi/v5/2sDQZG5JnZLfkcWTqWgJbU28O7w.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
+
 /* latin */
 @font-face {
   font-family: 'Pridi';
